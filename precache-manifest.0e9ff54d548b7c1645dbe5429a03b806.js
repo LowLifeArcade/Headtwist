@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fac890b39cd3bab9d9bcae6290c4d02a",
+    "revision": "2efdd7cf218e6ed38ae8179d0640c016",
     "url": "/headtwist/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headtwist/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "f87ed8362919e8eb611c",
+    "revision": "adfc92188daae958c88e",
     "url": "/headtwist/static/css/main.9d23e564.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headtwist/static/js/2.22801fed.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f87ed8362919e8eb611c",
-    "url": "/headtwist/static/js/main.aceb7bdc.chunk.js"
+    "revision": "adfc92188daae958c88e",
+    "url": "/headtwist/static/js/main.d2ceb9da.chunk.js"
   },
   {
     "revision": "afb4430ce485759345d1",

@@ -93,24 +93,24 @@ class App extends Component {
 
   onButtonSubmit = () => {
     console.log('click');
-  //   app.models.predict(Clarifai.COLOR_MODEL, "https://samples.clarifai.com/face-det.jpg").then(
-  //   function(response) {
-  //     console.log('response')
-  //     // do something with response
-  //   },
-  //   function(err) {
-  //     // there was an error
-  //   }
-  // );
+    app.models.predict(Clarifai.COLOR_MODEL, "https://samples.clarifai.com/face-det.jpg").then(
+    function(response) {
+      console.log('response')
+      // do something with response
+    },
+    function(err) {
+      // there was an error
+    }
+  );
 
-  app.models.initModel({id: Clarifai.GENERAL_MODEL, version: "aa7f35c01e0642fda5cf400f543e7c40"})
-      .then(generalModel => {
-        return generalModel.predict("@@sampleTrain");
-      })
-      .then(response => {
-        var concepts = response['outputs'][0]['data']['concepts']
-        console.log(concepts)
-      });
+  // app.models.initModel({id: Clarifai.GENERAL_MODEL, version: "aa7f35c01e0642fda5cf400f543e7c40", })
+  //     .then(generalModel => {
+  //       return generalModel.predict("@@sampleTrain");
+  //     })
+  //     .then(response => {
+  //       var concepts = response['outputs'][0]['data']['concepts']
+  //       console.log(concepts)
+  //     });
   }
 
   render() {

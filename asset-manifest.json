@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/headtwist/static/css/main.9d23e564.chunk.css",
+    "main.js": "/headtwist/static/js/main.561a73c6.chunk.js",
+    "main.js.map": "/headtwist/static/js/main.561a73c6.chunk.js.map",
+    "runtime-main.js": "/headtwist/static/js/runtime-main.561fe2b3.js",
+    "runtime-main.js.map": "/headtwist/static/js/runtime-main.561fe2b3.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/headtwist/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.22801fed.chunk.js": "/headtwist/static/js/2.22801fed.chunk.js",
+    "static/js/2.22801fed.chunk.js.map": "/headtwist/static/js/2.22801fed.chunk.js.map",
+    "index.html": "/headtwist/index.html",
+    "precache-manifest.e8a211ecb11ed52c3dc701ff9f01b238.js": "/headtwist/precache-manifest.e8a211ecb11ed52c3dc701ff9f01b238.js",
+    "service-worker.js": "/headtwist/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/headtwist/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.9d23e564.chunk.css.map": "/headtwist/static/css/main.9d23e564.chunk.css.map",
+    "static/js/2.22801fed.chunk.js.LICENSE.txt": "/headtwist/static/js/2.22801fed.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.561fe2b3.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.22801fed.chunk.js",
+    "static/css/main.9d23e564.chunk.css",
+    "static/js/main.561a73c6.chunk.js"
+  ]
+}

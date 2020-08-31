@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Level = () => {
+const Level = ({name, entries}) => {
   return (
     <div>
-       <div className='white f3'>
-      {'Sonny, you are at level '}
+       <div className='black f3'>
+      {`${name}, you are at level `}
     </div>
     <div className='light-blue f1'>
-    {'2 '}
-  </div>
+    {entries}
+    </div>
     </div>
    
   );

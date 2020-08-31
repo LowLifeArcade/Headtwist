@@ -4,15 +4,19 @@ import './ImageLinkForm.css';
 const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
   return (
     <div>
-      <p className='f3 white'>
-      {"What if I told you that everything you know is a lie?"}
+      <p className='f4 black'>
+      {"Find people in your picture."}
       </p>
       <div className= 'center'>
-        <div className='pa4 br3 shadow-5'>
-          <div className="form mw7 center pa4 br2-ns ba b--black-10">
-            <input className='f4 pa2 w-70 center' type='tex' onChange={onInputChange} />
+        <div className='mw6 center bg-light-green br3 pa3 pa4-ns mv4 ba shadow-5 b--black-20'>
+          <div 
+          className="mw7 center pa4 br2-ns ba b--black-10"
+          >
+            <input className='f4 center' type='text' onChange={onInputChange} 
+            />
+
             <button 
-            className= 'center pd2 br3 w-40 grow f4 link ph3 pv2 dib white bg-blue'
+            className= 'b ph3 pv2 br1 input-reset ba b--dark-green bg grow pointer f6 dib'
             onClick={onButtonSubmit}
             >Compute</button>
           </div>

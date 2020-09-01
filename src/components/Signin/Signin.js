@@ -48,7 +48,7 @@ class Signin extends React.Component {
             className="db fw6 lh-copy f6" 
             htmlFor="email">Email</label>
             <input 
-            className="pa1 input-reset ba bg-washed-green hover-bg-transparent hover-transparent w-100 b--black-20" 
+            className="pa1 input-reset ba bg-washed-green hover-bg-white hover-transparent w-100 b--black-20" 
             type="email" 
             name="email"  
             id="email" 
@@ -60,7 +60,7 @@ class Signin extends React.Component {
             className="db fw6 lh-copy f6" 
             htmlFor="password">Password</label>
             <input 
-            className="b pa1 input-reset ba bg-washed-green hover-bg-transparent hover-white w-100 b--black-20" 
+            className="b pa1 input-reset ba bg-washed-green hover-bg-white hover-white w-100 b--black-20" 
             type="password" 
             name="password"  
             id="password" 

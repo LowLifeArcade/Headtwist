@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Navigation from './components/Navigation/Navigation.js'
-import Logo from './components/Logo/Logo.js'
+// import Logo from './components/Logo/Logo.js'
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm.js'
 import Level from './components/Level/Level.js'
 import Signin from './components/Signin/Signin.js'
@@ -187,7 +187,7 @@ class App extends Component {
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         { route === 'home' 
         ? <div>
-        <Logo />
+        {/* <Logo /> */}
         <Level />
         <ImageLinkForm 
           onInputChange={this.onInputChange}

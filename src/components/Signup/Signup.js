@@ -52,7 +52,7 @@ class Signup extends React.Component {
           <div className="mt3">
             <label className="db fw6 lh-copy f6" htmlFor="name">Name</label>
             <input 
-              className="pa1 input-reset ba bg-washed-green hover-bg-white hover-white w-100 b--black-20" 
+              className="pa1 input-reset ba bg-washed-green hover-bg-white hover-black w-100 b--black-20" 
               type="text" 
               name="name"  
               id="name" 
@@ -62,7 +62,7 @@ class Signup extends React.Component {
           <div className="mt3">
             <label className="db fw6 lh-copy f6" htmlFor="email">Email</label>
             <input 
-              className="pa1 input-reset ba bg-washed-green hover-bg-white hover-white w-100 b--black-20" 
+              className="pa1 input-reset ba bg-washed-green hover-bg-white hover-black w-100 b--black-20" 
               type="email" 
               name="email"  
               id="email" 

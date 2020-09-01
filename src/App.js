@@ -141,7 +141,6 @@ class App extends Component {
   }
 
   onButtonSubmit = () => {
-    console.log('button pressed')
     this.setState({imageUrl: this.state.input});
     app.models
     .predict(
@@ -149,9 +148,9 @@ class App extends Component {
       this.state.input)
       .then(response => {
         if (response) {
-        fetch('http://localhose:3000/image', {
+        fetch('http://localhost:3000/image', {
           method: 'put',
-          headers: {'Content-Typle': 'application/json'},
+          headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             id: this.state.user.id
           })
@@ -161,11 +160,10 @@ class App extends Component {
             this.setState(Object.assign(this.state.user, { entries: count}))
           })
         
-        
-      } 
-      this.displayFaceBox(this.calculateFaceLocation(response))
+        }
+          this.displayFaceBox(this.calculateFaceLocation(response))
     })
-      .catch(err => console.logc(err));
+    .catch(err => console.logc(err));
   }
 
   onRouteChange = (route) => {

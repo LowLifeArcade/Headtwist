@@ -20,7 +20,7 @@ class Signin extends React.Component {
     fetch('http://localhost:3000/signin', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
-      body:JSON.stringify({
+      body: JSON.stringify({
         email: this.state.signInEmail,
         password: this.state.signInPassword
       })
@@ -50,8 +50,8 @@ class Signin extends React.Component {
             <input 
             className="pa1 input-reset ba bg-washed-green hover-bg-white hover-transparent w-100 b--black-20" 
             type="email" 
-            name="email"  
-            id="email" 
+            name="email-address"  
+            id="email-address" 
             onChange={this.onEmailChange} 
             />
           </div>
